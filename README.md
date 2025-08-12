@@ -1,4 +1,4 @@
-# Proxy Checker
+# Proxy Checker CLI
 
 Script ini digunakan untuk memeriksa apakah proxy yang diberikan dapat terdeteksi menggunakan API. Script akan membaca daftar proxy dari file input dan memeriksa setiap proxy menggunakan API, kemudian hasilnya akan disimpan dalam dua file output yang berbeda.
 
@@ -24,4 +24,5 @@ Script ini digunakan untuk memeriksa apakah proxy yang diberikan dapat terdeteks
 ## Penggunaan:
 **Jalankan Script:**
 ```bash
+apt update -y && apt upgrade -y && apt install python git -y && pip install requests && git clone https://github.com/gopaybis/proxychecker-cli && cd 'proxychecker-cli' &&
 python check-proxy.py
